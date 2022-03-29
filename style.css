@@ -468,3 +468,10 @@ body {
   }
 }
 /* # Mesmerizing by xposedbones */
+
+/* Media Queries Start Here */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --anispeed: 0;
+  }
+}
